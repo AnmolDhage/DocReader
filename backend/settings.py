@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-# AUTH_USER_MODEL = "docReader.customUser"
+AUTH_USER_MODEL = "docReader.customUser"
 REST_FRAMEWORK = {
     
     'DEFAULT_AUTHENTICATION_CLASSES': (
