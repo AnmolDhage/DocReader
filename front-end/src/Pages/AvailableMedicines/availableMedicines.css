@@ -1,0 +1,27 @@
+.availableMedicines-container{
+    width: max-content;
+    margin: 2rem auto;
+}
+
+.availableMedicines-container-title{
+    text-align: center;
+    margin-bottom:1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td{
+    padding: 1rem;
+  } 
+
+.buyMed{
+    cursor: pointer;
+    color: rgb(0, 0, 151);
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif; 
+}
+
+.search-container{
+  width: max-content;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.search-title{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+input:focus{
+  background-color: transparent !important;;
+}

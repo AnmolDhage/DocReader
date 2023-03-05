@@ -1,0 +1,23 @@
+.getLocation{
+    width: 27rem;
+    cursor: pointer;
+    padding:.5rem 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: transparent ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #4d0099;
+    color: white;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+.getLocation:hover{
+    transition: ease-in-out 200ms;
+    transform: scale(105%);
+}
+
+.location{
+    margin: 2rem 0;
+    font-weight: bold;
+}

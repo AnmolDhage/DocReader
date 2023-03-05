@@ -1,0 +1,36 @@
+.navbar{
+    border-bottom: 1px solid;
+    padding: 1rem 3rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d0099;
+    color: white;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.brand-logo{
+    font-size: 1.5rem;
+}
+
+.login-btn{
+    padding:.3rem 0.8rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background-color: green;
+    border: none;
+    color:white;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
+
+.login-btn:hover{
+    transition: ease-in-out 200ms;
+    transform: scale(105%);
+}
